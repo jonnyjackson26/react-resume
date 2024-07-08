@@ -1,12 +1,12 @@
 import React from 'react';
 import Project from '../project/Project';
-import 'Projects.css';
+import './Projects.css';
 const projectData = [
     {
-        image: 'image_url_1',
+        image: 'src/assets/projects-preview/bookofmormonlanguages.png',
         name: 'Read and Annotate the Book of Mormon in every language',
         date: 'May 2024',
-        description: 'With Django and React JS, I created a website to read the Book of Mormon and to seamlessly translate the language. Also, any starred verses will appear in every langauge, not just the language they were starred in.',
+        description: 'With Django and React JS, seamlessly translate between languages and any starred verses will appear in every langauge, not just the language they were starred in.',
         links: [
             { label: 'View Online', url: 'https://example.com/project1' },
             { label: 'GitHub', url: 'https://github.com/YOUR_GITHUB/project1' },
@@ -14,14 +14,13 @@ const projectData = [
         ],
     },
     {
-        image: 'image_url_2',
-        name: 'Project 2',
-        date: 'February 2023',
-        description: 'Short description of Project 2.',
+        image: 'src/assets/projects-preview/restotourswebsite.png',
+        name: 'Restoration Tour Group Website',
+        date: 'July 2024',
+        description: 'Website where clients can learn about tours and register for them, as well as contact the owner.',
         links: [
-            { label: 'View Online', url: 'https://example.com/project2' },
-            { label: 'GitHub', url: 'https://github.com/YOUR_GITHUB/project2' },
-            { label: 'YouTube', url: 'https://youtube.com/project2' },
+            { label: 'View Online', url: 'https://restorationtourgroup.com/' },
+            { label: 'GitHub', url: 'https://github.com/jonnyjackson26/reactRestoTours' },
         ],
     },
     // Add more projects as needed
