@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useContext } from 'react';
 import ReactDOM from 'react-dom/client'
-import Home from './pages/home/Home';
 import { createHashRouter, RouterProvider } from 'react-router-dom'
+import Home from './pages/home/Home';
+import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 
 
@@ -14,6 +15,10 @@ const router = createHashRouter([
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/about",
+    element: <About />,
   },
 ])
 

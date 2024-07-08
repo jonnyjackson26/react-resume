@@ -13,7 +13,7 @@ const Home = () => {
             <Button text="Youtube" to="/contact" />
             <Button text="Github" to="/contact" />
             <Button text="PDF Resume" to="/contact" />
-            <Button text="About me" to="/contact" />
+            <Button text="About me" to="/about" />
             <Projects />
         </>
     );
